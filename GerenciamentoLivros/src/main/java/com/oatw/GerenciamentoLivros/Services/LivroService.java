@@ -28,4 +28,8 @@ public class LivroService {
     public void delete(LivroModel livroModel) {
         livroRepository.delete(livroModel);
     }
+
+    public void deleteById(Long id){
+        livroRepository.deleteById(id);
+    }
 }
